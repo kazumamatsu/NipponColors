@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>日本伝統色</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
+    <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- JavaScript-->
+    <script type="text/javascript" src="javascript.js"></script>
+
+  </head>
+  <body id="body" onload="Running(ColorCode)">
+    <h1 class="main-title">日本伝統色</h1>
+
+    <article class="color-data">
+      <div class="colobox">
+        <div class="CMYK">
+          <span id="c_text">C</span>
+          <span id="c"></span>
+          <span id="m_text">M</span>
+          <span id="m"></span>
+          <span id="y_text">Y</span>
+          <span id="y"></span>
+          <span id="k_text">K</span>
+          <span id="k"></span>
+        </div>
+        <div class="RGB">
+          <span id="r_text">R</span>
+          <span id="r"></span>
+          <span id="g_text">G</span>
+          <span id="g"></span>
+          <span id="b_text">B</span>
+          <span id="b"></span>
+        </div>
+        <div id="code"></div>
+      </div>
+    </article>
+
+    <nav class="colors">
+      <ul>
+        <li id="col001">
+          <div>
+            <a href="javascript:Change('#FEDFE1')">桜, SAKURA</a>
+          </div>
+        </li>
+        <li id="col002">
+          <div>
+            <a href="javascript:Change('#F596AA')">桃, MOMO</a>
+          </div>
+        </li>
+        <li id="col003">
+          <div>
+            <a href="javascript:Change('#181B39')">勝, KACHI</a>
+          </div>
+        </li>
+      </ul>
+    </nav>
+
+  </body>
+</html>
